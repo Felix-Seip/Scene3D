@@ -138,16 +138,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\The Math Library\TheMathLibrary\TheMathLibrary.csproj">
-      <Project>{9ba970b7-3d84-473c-b421-4835bd52a2a5}</Project>
-      <Name>TheMathLibrary</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="oszimtlogo_Y9z_icon.ico" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\oszimtlogo_Y9z_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TheMathLibrary\TheMathLibrary.csproj">
+      <Project>{9ba970b7-3d84-473c-b421-4835bd52a2a5}</Project>
+      <Name>TheMathLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
