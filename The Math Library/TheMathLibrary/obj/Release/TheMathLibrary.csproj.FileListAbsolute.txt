@@ -1,0 +1,6 @@
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\TheMathLibrary\bin\Release\TheMathLibrary.dll
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\TheMathLibrary\bin\Release\TheMathLibrary.pdb
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\TheMathLibrary\bin\Release\DotNumerics.dll
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\TheMathLibrary\obj\Release\TheMathLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\TheMathLibrary\obj\Release\TheMathLibrary.dll
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\TheMathLibrary\obj\Release\TheMathLibrary.pdb

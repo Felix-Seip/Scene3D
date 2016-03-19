@@ -1,0 +1,5 @@
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\TheMathLibrary\bin\Debug\TheMathLibrary.dll
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\TheMathLibrary\bin\Debug\TheMathLibrary.pdb
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\TheMathLibrary\obj\Debug\TheMathLibrary.dll
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\TheMathLibrary\obj\Debug\TheMathLibrary.pdb
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\TheMathLibrary\obj\Debug\TheMathLibrary.csprojResolveAssemblyReference.cache
