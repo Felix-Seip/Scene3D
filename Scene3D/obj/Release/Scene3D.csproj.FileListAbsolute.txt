@@ -1,0 +1,22 @@
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\bin\Release\Scene3D.exe.config
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\bin\Release\Resources\Computer_Graphic_3D Documentation.docx
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\bin\Release\Scene3D.exe
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\bin\Release\Scene3D.pdb
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\bin\Release\TheMathLibrary.dll
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\bin\Release\TheMathLibrary.pdb
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\obj\Release\Scene3D.csprojResolveAssemblyReference.cache
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\obj\Release\AboutDialog.g.cs
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\obj\Release\MainWindow.g.cs
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\obj\Release\MyCanvas.g.cs
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\obj\Release\App.g.cs
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\obj\Release\Scene3D_MarkupCompile.cache
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\obj\Release\Scene3D_MarkupCompile.lref
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\obj\Release\AboutDialog.baml
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\obj\Release\MainWindow.baml
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\obj\Release\MyCanvas.baml
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\obj\Release\Scene3D.g.resources
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\obj\Release\Scene3D.Properties.Resources.resources
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\obj\Release\Scene3D.csproj.GenerateResource.Cache
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\obj\Release\Scene3D.exe
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\Scene3D\obj\Release\Scene3D.pdb

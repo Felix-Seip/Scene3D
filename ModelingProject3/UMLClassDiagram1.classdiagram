@@ -1,0 +1,1347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="0df99f02-32f3-45b8-a4cb-aa8b2c7d8719" name="UMLClassDiagram1" linkedPackageId="e13af988-ed88-40cd-b5fe-a5f13b5ac6bb" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3a4d7c8e-861e-4359-8a5f-a4f333aae06d" name="MainWindow" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ff24597e-9150-4960-807f-6cf394405af2" />
+        <ownedOperationsInternal>
+          <operation Id="c3df8b7a-a1eb-4041-ae21-4f419af339f9" name="CalculateSidesShown" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b1c22de6-e086-45e0-925e-0c87501c10df" />
+          </operation>
+          <operation Id="a9378501-aa55-43cd-8914-7f6929efb8b0" name="Draw" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="af2c087f-ae81-4ebe-8e58-2a653a07e3b5" />
+          </operation>
+          <operation Id="15a1fa68-2c5e-42c4-8bd4-fe0b55181a8b" name="OnZoom" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bac5ab89-4c02-4abe-9b0b-ad64fb130f12" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3b666b6c-53d8-43be-ba1b-c9f015fd2a9c" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="2e8923e1-73cb-490b-90e0-f7d08c65a141" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="fe453499-4916-455e-9402-9935a310c6ae" LastKnownName="object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4f85ed86-d48c-4afa-bea0-a6c154e7787d" name="e" direction="In" isUnique="false">
+                  <elementDefinition Id="f73e6e1e-0001-48de-b795-21c60a77f52b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e6827775-087c-41b8-9205-eb959e48492c" LastKnownName="MouseWheelEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="cf6d9ed9-5d39-4388-900f-ddc32ce40b2b" name="XAxisRotation_ValueChanged" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="dafff9f1-3ab2-4827-9dd9-0934c30809d0" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0d4072a0-dcb6-4351-a777-96d7fa510ff5" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="99bd6fa9-a067-4aac-8757-caba5d36716d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="fe453499-4916-455e-9402-9935a310c6ae" LastKnownName="object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5ae4bbb6-36c4-45eb-b831-5d38602ef911" name="e" direction="In" isUnique="false">
+                  <elementDefinition Id="5e014a49-bd80-458d-b7e5-e174a0cd9005" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f5918e57-5a6b-4cc4-8ab7-9ca0e2ade958" LastKnownName="RoutedPropertyChangedEventArgs&lt;double&gt;" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="af7bf997-99c7-40dc-83d1-a79bb8181966" name="YAxisRotation_ValueChanged" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="101fecdb-1654-432b-8b0a-3a24771c7549" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="256bd201-7dd0-43a6-a159-497c1017b8d0" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="07e48717-fa42-49ff-b292-8756ec948a85" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="fe453499-4916-455e-9402-9935a310c6ae" LastKnownName="object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8236c18b-1e1d-474f-b634-85d1fcb7ed46" name="e" direction="In" isUnique="false">
+                  <elementDefinition Id="782cb370-73af-4144-94bf-ff66a57c7b0b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f5918e57-5a6b-4cc4-8ab7-9ca0e2ade958" LastKnownName="RoutedPropertyChangedEventArgs&lt;double&gt;" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="25ab142a-3fbc-40f6-bf4d-f6284672b017" name="ZAxisRotation_ValueChanged" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="db02dbbf-5ade-4e62-bfca-b0b116be89ab" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="bdf41168-c352-4fae-b9d9-8e3857cb3756" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="d0d8ab47-ba60-4b4e-ab2b-da9cd982bbba" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="fe453499-4916-455e-9402-9935a310c6ae" LastKnownName="object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="cac94786-e6c7-4ea6-84ce-b34032cad0e4" name="e" direction="In" isUnique="false">
+                  <elementDefinition Id="c9ad72ef-236a-4331-a008-003d3f6e4b42" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f5918e57-5a6b-4cc4-8ab7-9ca0e2ade958" LastKnownName="RoutedPropertyChangedEventArgs&lt;double&gt;" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="6ce9e9a6-09fa-4b34-ba65-514e25c713ef" name="MenuItem_Click" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="392e2bef-2803-4e7e-869c-092c41ffa720" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4d8c2c61-01d6-4992-b13a-ec01afe9cd46" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="a1a7cda4-48de-4b79-b106-e526ce66dc40" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="fe453499-4916-455e-9402-9935a310c6ae" LastKnownName="object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1cb53873-5ac8-46e5-a67a-5023b97d45f9" name="e" direction="In" isUnique="false">
+                  <elementDefinition Id="bea2336e-5dce-4bfb-94f4-af6fd541a93c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="242c1ba1-204c-45e4-8e1b-f045addf7acc" LastKnownName="RoutedEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="df754a4f-3728-4b65-bc88-27165320d171" name="CubeObjectMenuItem_Click" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="10016a41-ede5-455b-8e4b-320019afb440" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="b5e3057f-e75b-465e-974e-fc5f37a5f59d" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="6864aa3c-d366-42b6-bb8e-c8dbd9a522aa" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="fe453499-4916-455e-9402-9935a310c6ae" LastKnownName="object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="47ff1cc2-47b6-4adb-8ff1-af1620d936dc" name="e" direction="In" isUnique="false">
+                  <elementDefinition Id="cf83d91b-ae5c-4545-9f38-37757d9ebcd6" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="242c1ba1-204c-45e4-8e1b-f045addf7acc" LastKnownName="RoutedEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="16862c67-e183-45f9-9a7e-92f70590009a" name="SphereObjectMenuItem_Click" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="efa5e877-abde-4012-a25f-eb4331b6198f" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1d2bfcce-461e-483c-b57e-8f1438a862a4" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="aabd961e-4823-4d2b-95e9-9ba67d98b052" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="fe453499-4916-455e-9402-9935a310c6ae" LastKnownName="object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4a59741b-539d-49e9-aba5-922b7346779c" name="e" direction="In" isUnique="false">
+                  <elementDefinition Id="aceab92e-9a6f-4567-a665-2a2686095936" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="242c1ba1-204c-45e4-8e1b-f045addf7acc" LastKnownName="RoutedEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="62bc2e0b-dd89-4ec7-87f8-8ce9bb9838c1" name="CylinderObjectMenuItem_Click" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2e486751-3229-415e-ba7e-fb42f0258e45" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="596d65c8-c9f9-4453-a80e-5028c3fe1c75" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="554c5522-5f92-4a90-86b3-1af538735322" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="fe453499-4916-455e-9402-9935a310c6ae" LastKnownName="object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c9705ea6-1f6f-4cda-9cd7-fb01875e7437" name="e" direction="In" isUnique="false">
+                  <elementDefinition Id="a58a0bf9-f0c1-4d02-a6d0-2c9df7a0709c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="242c1ba1-204c-45e4-8e1b-f045addf7acc" LastKnownName="RoutedEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="ea6593cd-ca63-4c90-bc2a-332152a12bc2" name="ConeObjectMenuItem_Click" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6c49e342-effa-490b-abcb-f1381e048246" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d48766c9-7ca5-42fd-863d-bdee84146eb3" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="af824822-bab0-4c1f-ac9a-ca7d6ab514b2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="fe453499-4916-455e-9402-9935a310c6ae" LastKnownName="object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="aa5ce592-cd3c-43bc-9d6c-f1c02ad839dc" name="e" direction="In" isUnique="false">
+                  <elementDefinition Id="4eecc6e9-ed2c-4bdd-980f-60ba0de77379" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="242c1ba1-204c-45e4-8e1b-f045addf7acc" LastKnownName="RoutedEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="9e0aa00e-c705-4229-aede-61efa6894998" name="GearObjectMenuItem_Click" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6a6eeec1-d194-4e55-b47d-031171441f95" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="cd2241ff-84e3-456f-96a2-2c8d9310e095" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="0abb4e06-b82d-43d1-9f03-43290087d344" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="fe453499-4916-455e-9402-9935a310c6ae" LastKnownName="object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="859482ce-e025-4a7e-a420-9897a679843d" name="e" direction="In" isUnique="false">
+                  <elementDefinition Id="f2df0081-449c-45d3-9a36-2c567be9f2f2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="242c1ba1-204c-45e4-8e1b-f045addf7acc" LastKnownName="RoutedEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="647ca887-70c3-44ef-92b8-a1f99a859660" name="ColorPickerMenuItem_Click" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b2d2a5bf-988c-4124-802b-62ced500d6aa" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="cb7acf9b-8beb-40d7-bc2d-41bab34955c0" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="27f5ee30-c336-4cf6-8e99-197c280087a3" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="fe453499-4916-455e-9402-9935a310c6ae" LastKnownName="object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0c5d3d1f-6246-488d-81cc-245f7b436b5d" name="e" direction="In" isUnique="false">
+                  <elementDefinition Id="23e9982c-5244-46a0-a45e-528d5ce9b9a9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="242c1ba1-204c-45e4-8e1b-f045addf7acc" LastKnownName="RoutedEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="9b232b76-1db4-4994-a204-2ee67b970924" name="AboutDialog_Click" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="fd34e9c4-d8a2-43c8-8715-a72b759d757c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="39722c31-7056-4f2d-a8c2-990b59e07c98" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="ee4b92ef-83b3-45eb-88f0-b8eeffb11a72" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="fe453499-4916-455e-9402-9935a310c6ae" LastKnownName="object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f2b37fba-084f-4531-96eb-b77dc5357b74" name="e" direction="In" isUnique="false">
+                  <elementDefinition Id="c2e62199-f01e-4672-a678-c34f56bf54df" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="242c1ba1-204c-45e4-8e1b-f045addf7acc" LastKnownName="RoutedEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="fe453499-4916-455e-9402-9935a310c6ae" name="object" isAbstract="false" isLeaf="false" cachedFullName="object">
+        <elementDefinition Id="87231f2f-35fc-4e11-a4ea-f48c24a05c67" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e6827775-087c-41b8-9205-eb959e48492c" name="MouseWheelEventArgs" isAbstract="false" isLeaf="false" cachedFullName="MouseWheelEventArgs">
+        <elementDefinition Id="79d2583e-6a4c-4797-8b52-f546462e4736" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f5918e57-5a6b-4cc4-8ab7-9ca0e2ade958" name="RoutedPropertyChangedEventArgs&lt;double&gt;" isAbstract="false" isLeaf="false" cachedFullName="RoutedPropertyChangedEventArgs&lt;double&gt;">
+        <elementDefinition Id="ce3f9abf-9bae-4c45-a840-cd36920b4ba3" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="242c1ba1-204c-45e4-8e1b-f045addf7acc" name="RoutedEventArgs" isAbstract="false" isLeaf="false" cachedFullName="RoutedEventArgs">
+        <elementDefinition Id="bd31e4af-1054-4a68-8a17-6f6cc9b7fef2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="abb63695-bab5-4b9e-a86d-3e87c1db4e3a" name="FileReaders" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="53caa180-c5d7-4957-834e-97f75bffd59e" />
+        <ownedOperationsInternal>
+          <operation Id="1a2f8520-5bf7-4ad9-80b6-ca0a00c6f01f" name="&lt;static&gt;ReadOBJFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f9b1cec4-a85a-48c9-a49b-f3e9a74ffa1a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3241642d-dc67-42c1-a7a9-5e1f502a388f" direction="Return" isUnique="false">
+                  <elementDefinition Id="85784801-36db-45dd-99f3-e1969b81f7bb" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="efdbb85a-c33c-4aa7-bb8a-68e248ca6855" LastKnownName="List&lt;Triangle&gt;" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="515314e4-3b7b-4fe6-a9a7-a2dcdc2e5ae9" name="fileName" direction="In" isUnique="false">
+                  <elementDefinition Id="32a2f506-4fd9-4bee-82db-1df4efb87155" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="aed650b7-8218-45a5-94bc-1d4bc6b27898" LastKnownName="string" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="15a16b4e-f3f5-4155-96bd-ad2e714342c7" name="&lt;static&gt;ReadINCFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7408c2c3-820a-46d1-bf83-8e91713a8c2f" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="97a7a53d-83d7-40e7-a504-7093116a12a6" direction="Return" isUnique="false">
+                  <elementDefinition Id="b6ed5594-d377-41b3-8d04-eaa3408bda6a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="efdbb85a-c33c-4aa7-bb8a-68e248ca6855" LastKnownName="List&lt;Triangle&gt;" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d836751d-1666-4e13-9b77-caa5fe3f27a3" name="fileName" direction="In" isUnique="false">
+                  <elementDefinition Id="745f0822-81ff-4c5d-86c4-3bff55070473" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="aed650b7-8218-45a5-94bc-1d4bc6b27898" LastKnownName="string" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="aed650b7-8218-45a5-94bc-1d4bc6b27898" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="be5670b4-03ed-4184-86d8-1de4382c86ba" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="efdbb85a-c33c-4aa7-bb8a-68e248ca6855" name="List&lt;Triangle&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Triangle&gt;">
+        <elementDefinition Id="2e4f42be-73e5-463d-a3b8-d2eab80c28c5" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="20a4c527-bc30-4845-8fd4-0986d44867f6" name="Matrix" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2029c7ee-3e5d-49e8-ab3b-4b4a9eff99ca" />
+        <ownedAttributesInternal>
+          <property Id="c15dbc45-d6a0-450b-bb49-88119ad021fa" name="Values" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4ee03781-c634-4ff6-bb69-24ba13f694dc" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="dba35bbd-aa44-436d-92f7-c75d9183289d" LastKnownName="double[][]" />
+            </type_NamedElement>
+          </property>
+          <property Id="1ddc9934-be86-4473-947a-f77bafa761aa" name="RowCount" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="eecdc615-9a09-4e72-b251-cc5bc582dcfe" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="82c93a29-19ae-4718-820b-6d7fe7a4a35f" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="388bf4c0-bd69-4407-9d8e-480bc06d86b6" name="ColumnCount" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b372d1d5-380d-420f-a2d4-8428a31f50df" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="82c93a29-19ae-4718-820b-6d7fe7a4a35f" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="9fdce24b-9a7d-4915-a669-f53efe50db4d" name="IsDiagonallyDominant" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="125ad867-d639-4d76-a30e-23220c708e4c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a54c8ea8-d4ae-4874-9978-fc3d1be46f86" LastKnownName="bool" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="07e92832-9b43-40ef-a395-ff35fee5ed29" name="Matrix" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4bf1ed23-4e9d-4d8b-aef1-a43220116dec" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="44504ac2-043a-450c-adba-67a7e6db35ce" name="matrix" direction="In" isUnique="false">
+                  <elementDefinition Id="9a6241cf-8318-4b04-b16e-8edc2f1e3d43" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="dba35bbd-aa44-436d-92f7-c75d9183289d" LastKnownName="double[][]" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="eecceb9b-8a69-4f44-a631-0916f98e4573" name="CheckDiagonalDominance" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="358c471f-62c9-4ce0-9857-64680d83594b" />
+          </operation>
+          <operation Id="6956ac64-2808-40a6-a9e5-0fb8c2029c77" name="&lt;static&gt;MultiplicationWithScalar" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="888df39d-c4f6-4c2b-a296-1b561640dc76" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1168512e-4b00-49d8-9df4-b0e44acd0340" direction="Return" isUnique="false">
+                  <elementDefinition Id="26ce310d-b1d9-40c4-b0d7-fe7ebf5233ec" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2055ae0e-7e4c-46cf-8e9d-e5f9dd1b9523" LastKnownName="Matrix" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ee96c83b-6737-4504-84eb-44ffee3aa893" name="matrix" direction="In" isUnique="false">
+                  <elementDefinition Id="95e715cb-e83f-4596-9496-a78cdc44fdbd" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2055ae0e-7e4c-46cf-8e9d-e5f9dd1b9523" LastKnownName="Matrix" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4e884444-5f19-4d94-af72-35e2a54439a1" name="scalar" direction="In" isUnique="false">
+                  <elementDefinition Id="0f1c0b2d-de6a-4efc-9cfc-cf09c2dc7a71" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4311c305-d17a-4710-a049-ef64a5cc1c8b" LastKnownName="double" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="0db90d95-2bfd-4f0f-9c7e-0f8f003d5cfd" name="&lt;static&gt;MultiplicationWithVector" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="51003eee-63bf-467e-b762-d67c40a1c968" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="35b958f3-fb1c-4292-89d6-8644fe0ed8fd" name="matrix" direction="In" isUnique="false">
+                  <elementDefinition Id="3f751e4d-5c98-402a-8092-14eaab2ceacb" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2055ae0e-7e4c-46cf-8e9d-e5f9dd1b9523" LastKnownName="Matrix" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="77e549af-e9af-4db1-8bb5-efa3bc66bd51" name="vector" direction="In" isUnique="false">
+                  <elementDefinition Id="f332e6aa-7d93-45e5-8caa-97e6db6ecc2c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="eebf3ece-cd70-4948-818e-c3402d419ac0" LastKnownName="Vector" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="835067e6-123f-444e-a8d5-12460938a90b" direction="Return" isUnique="false">
+                  <elementDefinition Id="ee626fab-48d9-4ea9-b498-820799cf636b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="eebf3ece-cd70-4948-818e-c3402d419ac0" LastKnownName="Vector" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="0f59f16c-32c8-4f74-b303-503a08c1606f" name="&lt;static&gt;MultiplicationWithVector3D" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3b86251f-28fb-48c5-a71d-01ae95fec0fb" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8aeb39cf-b616-4e7b-ae1b-c10fc839af14" name="matrix" direction="In" isUnique="false">
+                  <elementDefinition Id="7082e7c4-74c3-45e0-a7d9-1726a0c0e2e9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2055ae0e-7e4c-46cf-8e9d-e5f9dd1b9523" LastKnownName="Matrix" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="40a83698-c834-4a37-a26d-3baf96f2605c" name="vector" direction="In" isUnique="false">
+                  <elementDefinition Id="b5c8ccb1-602d-4314-8082-1f2cf10c3d27" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1929f493-096d-44f9-99b7-fe9f7467563f" LastKnownName="Vector3D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="7187adac-c66d-43f2-8fd6-52b5b868f329" direction="Return" isUnique="false">
+                  <elementDefinition Id="f544617c-ef44-4505-99c9-6c3dd28ef047" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1929f493-096d-44f9-99b7-fe9f7467563f" LastKnownName="Vector3D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="97b86edc-e630-4c3a-a412-49bb7fe56066" name="&lt;static&gt;MultiplicationWithVector4D" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bdd1b2d0-fc30-4f0c-a471-5f01a3ee25e1" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c51be4ec-fd11-42d8-bf72-dfa27ac350ef" name="matrix" direction="In" isUnique="false">
+                  <elementDefinition Id="5a62e84c-0f30-4b7a-bfe2-f7e83cb81cf2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2055ae0e-7e4c-46cf-8e9d-e5f9dd1b9523" LastKnownName="Matrix" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="63fc8054-d420-4a97-97a2-97b36a709986" name="vector" direction="In" isUnique="false">
+                  <elementDefinition Id="ceab2233-f824-4beb-b3c6-288f951a6e3a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cc6d2d8b-7d95-4d25-b4d3-1d35aba89af2" LastKnownName="Vector4D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="80b14f38-bbad-4c48-8f15-29a3a6fa29ff" direction="Return" isUnique="false">
+                  <elementDefinition Id="e3ba9ac1-b9ac-4b3e-a5c3-fcdf0b40f59c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cc6d2d8b-7d95-4d25-b4d3-1d35aba89af2" LastKnownName="Vector4D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="9269aff8-2fa9-404c-a356-7315808b5ce2" name="&lt;static&gt;MultiplicationWithMatrix" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7677477c-87c8-4fb7-8855-4817453565e5" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2755dc62-167a-45c8-930c-59fec6bbcf4d" name="matrix1" direction="In" isUnique="false">
+                  <elementDefinition Id="500553d4-57b6-4147-9fee-ce918aad2514" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2055ae0e-7e4c-46cf-8e9d-e5f9dd1b9523" LastKnownName="Matrix" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4ca3d493-9994-4441-a7f5-02f8ce5ed5ae" name="matrix2" direction="In" isUnique="false">
+                  <elementDefinition Id="4f811cba-b1b1-417d-a4ed-e3882c93f44b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2055ae0e-7e4c-46cf-8e9d-e5f9dd1b9523" LastKnownName="Matrix" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="06861d6d-998d-49e6-9208-76ec10753bb6" direction="Return" isUnique="false">
+                  <elementDefinition Id="254c551f-7854-4bae-941c-6086f3f841f2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2055ae0e-7e4c-46cf-8e9d-e5f9dd1b9523" LastKnownName="Matrix" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="e21b8a26-59e8-4d90-9354-9d33b109a74b" name="&lt;static&gt;TransposeMatrix" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3b833328-6921-42fa-96b3-46a3b803e5e8" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="60f945a9-5d0d-4077-a78d-8ac4dfe16c34" name="matrix" direction="In" isUnique="false">
+                  <elementDefinition Id="0f4e28ba-33e0-47e0-b193-ea1403b90ebc" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2055ae0e-7e4c-46cf-8e9d-e5f9dd1b9523" LastKnownName="Matrix" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e2e8bb0f-7ea7-4394-b63c-2ef6c88d7272" direction="Return" isUnique="false">
+                  <elementDefinition Id="1e52c1e0-a9fa-46a8-9366-c188b3daeb1b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2055ae0e-7e4c-46cf-8e9d-e5f9dd1b9523" LastKnownName="Matrix" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="95f8c1bb-8b6f-4582-a26c-866e8feacb96" name="ToString" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="66484f0c-3b2c-4f65-bec3-b5d61928751b" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="dbac78ec-5360-4ef5-aa04-8cdb5562a271" direction="Return" isUnique="false">
+                  <elementDefinition Id="8fb033c5-8880-44a0-9e02-3fa399b6e5e0" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="aed650b7-8218-45a5-94bc-1d4bc6b27898" LastKnownName="string" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="dba35bbd-aa44-436d-92f7-c75d9183289d" name="double[][]" isAbstract="false" isLeaf="false" cachedFullName="double[][]">
+        <elementDefinition Id="5c40fe52-95cb-4faf-b003-7ae55fff4c2d" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="82c93a29-19ae-4718-820b-6d7fe7a4a35f" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="f3c4d122-407d-42cc-bc57-db0596ecd837" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="a54c8ea8-d4ae-4874-9978-fc3d1be46f86" name="bool" isAbstract="false" isLeaf="false" cachedFullName="bool">
+        <elementDefinition Id="e544d1b5-231a-484c-896d-baa51fd65d48" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="2055ae0e-7e4c-46cf-8e9d-e5f9dd1b9523" name="Matrix" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject3::Matrix">
+        <elementDefinition Id="2029c7ee-3e5d-49e8-ab3b-4b4a9eff99ca" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="4311c305-d17a-4710-a049-ef64a5cc1c8b" name="double" isAbstract="false" isLeaf="false" cachedFullName="double">
+        <elementDefinition Id="4f693de1-148f-4ff9-9677-5174ef1c6b59" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="eebf3ece-cd70-4948-818e-c3402d419ac0" name="Vector" isAbstract="false" isLeaf="false" cachedFullName="Vector">
+        <elementDefinition Id="cc0e9d4b-2a01-4d49-b6bb-86ee4305541b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="1929f493-096d-44f9-99b7-fe9f7467563f" name="Vector3D" isAbstract="false" isLeaf="false" cachedFullName="Vector3D">
+        <elementDefinition Id="114f4cf1-69fc-4d21-a2ae-460522bd3b40" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="cc6d2d8b-7d95-4d25-b4d3-1d35aba89af2" name="Vector4D" isAbstract="false" isLeaf="false" cachedFullName="Vector4D">
+        <elementDefinition Id="49cb266f-9aa6-40dc-a5fa-f95f99fc3dd9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6763ecd7-c308-439b-9eaf-aa817ff3cd6c" name="ProjectionsMatrix" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="08046bcb-54a6-4c21-821e-60e8a7d16482" />
+        <generalsInternal>
+          <generalization Id="b4433e86-5dc2-4c61-99db-2113abf0dd77" isSubstitutable="false">
+            <classMoniker Id="20a4c527-bc30-4845-8fd4-0986d44867f6" LastKnownName="Matrix" />
+            <elementDefinition Id="111f3f8f-6b6f-4a07-9acd-d3a37393cc7e" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4d3d57f8-9c8e-4386-9cfb-29ce28d93b13" name="RotationsMatrix" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c4f862e2-e483-4eee-98f1-cfe0f4206454" />
+        <generalsInternal>
+          <generalization Id="ce0c07c7-e709-4b0a-a3d3-869a056e7a28" isSubstitutable="false">
+            <classMoniker Id="20a4c527-bc30-4845-8fd4-0986d44867f6" LastKnownName="Matrix" />
+            <elementDefinition Id="d49e11c8-ffc0-4b52-9039-302fa90c5365" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="65d1eac5-ce77-4df1-8431-3e3e714db52c" name="MatrixType" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0580951f-b64f-454e-b9df-dcef426ef8b8" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="24f456ef-6af0-4feb-8d61-cd1648ae9a25" LastKnownName="Enumeration" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="c414415f-a958-42af-854e-2f9f7cd9ec77" name="RotationsMatrix" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="26aaf44d-98b4-4af4-897d-110814c96efd" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="dae0afb6-9fc9-4078-9692-4b30b783fd89" name="type" direction="In" isUnique="false">
+                  <elementDefinition Id="b5924ad4-d8ed-41c2-800e-e5064be1b85f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="82c93a29-19ae-4718-820b-6d7fe7a4a35f" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1f2a0e72-ca48-440f-9f2b-5b51cdb71695" name="angle" direction="In" isUnique="false">
+                  <elementDefinition Id="5bcdd2d1-1b0d-4b4e-aeb4-a7d278a76647" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4311c305-d17a-4710-a049-ef64a5cc1c8b" LastKnownName="double" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="24f456ef-6af0-4feb-8d61-cd1648ae9a25" name="Enumeration" isAbstract="false" isLeaf="false" cachedFullName="Enumeration">
+        <elementDefinition Id="929c25bf-e546-40b7-acaf-6701194ba97d" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9abbe4ab-98c4-40f0-81da-e516348ecbb9" name="TranslationsMatrix" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="39272669-68a2-4288-b580-897d4cffbd4c" />
+        <generalsInternal>
+          <generalization Id="22060693-9199-4d49-b7c2-e5d92ebcabe9" isSubstitutable="false">
+            <classMoniker Id="20a4c527-bc30-4845-8fd4-0986d44867f6" LastKnownName="Matrix" />
+            <elementDefinition Id="8065a2e2-cede-4ba2-8de2-d04b9640ba81" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="841346bf-adba-40c4-b748-ee7d6be127f8" name="TranslationsMatrix" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="428030ba-6f2c-4718-a4c7-e64886c606dc" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f884c6f3-f0bc-449d-ae3b-178434f25d72" name="X" direction="In" isUnique="false">
+                  <elementDefinition Id="ab175172-9127-4914-944f-dcd1ace8a0c5" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4311c305-d17a-4710-a049-ef64a5cc1c8b" LastKnownName="double" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="90849752-b091-48b8-9b3d-e73dcd250f4b" name="Y" direction="In" isUnique="false">
+                  <elementDefinition Id="8a1e8ac3-930b-4eed-a87f-dca63f2113ab" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4311c305-d17a-4710-a049-ef64a5cc1c8b" LastKnownName="double" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7975ac14-ba48-4a56-9c0c-3a68f9d11f96" name="Triangle" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d7c8fe57-f5fe-40dd-89cc-13a2fe6f9ea1" />
+        <targetEnds>
+          <association Id="04c95ce8-38b4-4401-8576-dfde8cee4a2c" isDerived="false" sourceEndRoleName="Triangle" targetEndRoleName="Vector3D" isLeaf="false" isAbstract="false">
+            <classMoniker Id="a097cb05-8622-4c54-82b6-e218e9b07fe8" LastKnownName="Vector3D" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="87d793b3-da76-4def-bfa0-d32fad2501d7" name="Triangle" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="4ea6639a-9238-4d4f-9183-74ba04337e58" name="Lower" value="3">
+                      <elementDefinition Id="9646b682-b953-4426-a1fc-1cac717b689e" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="48115a6d-4f73-44fe-a90c-96d77b2d804c" name="Upper" value="3">
+                      <elementDefinition Id="3b565ea9-9f80-48eb-96ef-9ebaec964a15" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="d1c785a3-e18f-4b3d-9d20-d3ca9661e5f3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0aa2236b-a873-4fbc-be38-8ec29c3a8d6d" name="Vector3D" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="44969a4e-6aa0-4ec9-b994-8d9da31423fd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="50b82573-ef2d-4a58-be8d-86d4ff0e8869" />
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation Id="a7fe1515-0743-4730-bb4a-83a74430224a" name="Triangle" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b36e298b-df84-4a86-b6bf-44a52d0adfe0" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="adc42e68-465a-4f59-917c-51cdf3e1e431" name="vector1" direction="In" isUnique="false">
+                  <elementDefinition Id="7639574f-74a9-4c37-9bfe-41888dfa1804" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1929f493-096d-44f9-99b7-fe9f7467563f" LastKnownName="Vector3D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2921117f-503a-49ff-9a6b-57df2f9fd2d0" name="vector2" direction="In" isUnique="false">
+                  <elementDefinition Id="de75e53e-87ab-4249-b568-dda290665c79" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1929f493-096d-44f9-99b7-fe9f7467563f" LastKnownName="Vector3D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="05b4cb26-cc5e-43f2-aab1-1e89484934a7" name="vector3" direction="In" isUnique="false">
+                  <elementDefinition Id="943b1a1d-c25d-41c2-960e-949b2b08f913" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1929f493-096d-44f9-99b7-fe9f7467563f" LastKnownName="Vector3D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="35ea448f-6607-4bc5-b483-99b047fa9c87" name="Vector" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="77bff340-75c9-4757-b83e-46108a8b5542" />
+        <ownedAttributesInternal>
+          <property Id="3d0f4b69-4485-4b59-9758-1ff724b986c6" name="Values" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8ae4f1c8-8f9b-4142-bf80-fb2a0b07950b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="dba35bbd-aa44-436d-92f7-c75d9183289d" LastKnownName="double[][]" />
+            </type_NamedElement>
+          </property>
+          <property Id="872a6f5e-6d55-44a4-ad69-3c7f9d01b1c5" name="Size" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cb3e76f1-9fab-46d7-b829-232b9d16e574" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="82c93a29-19ae-4718-820b-6d7fe7a4a35f" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="403e73b4-38d2-4bdf-a4c8-c03e1b1ed985" name="Magnitude" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="be17ef52-cced-495b-b773-973ba3f01c2d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="4311c305-d17a-4710-a049-ef64a5cc1c8b" LastKnownName="double" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="4b913d49-570f-4a3b-8230-d0536a88c6fb" name="Vector" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b9f92550-5554-4823-8ec5-6b3493143184" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5ad6645d-ab53-40c2-812e-760a837b1559" name="values" direction="In" isUnique="false">
+                  <elementDefinition Id="f3cd6240-e00b-4417-853c-1505090bc2fa" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="dba35bbd-aa44-436d-92f7-c75d9183289d" LastKnownName="double[][]" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="5b0f0bb2-0b8c-434b-9edc-fcd9cc6cd9c3" name="CalculateMagnitude" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f8c00780-b802-4a89-a586-a2dc69ece12c" />
+          </operation>
+          <operation Id="b12747bf-9299-4846-b010-b4ee133c2ed5" name="&lt;static&gt;DotProduct" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="78a5dc89-41c1-45ad-b495-7e743d289063" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="49b48320-3882-4d0f-8aad-79ad429aaa9a" name="vector1" direction="In" isUnique="false">
+                  <elementDefinition Id="4bc0bf80-6efd-4dea-be8d-49c24ec25001" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9284daba-f8da-459e-8558-754da1bc1377" LastKnownName="Vector" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="010e2b0a-2bf2-4e27-8db7-b85a348dbe05" name="vector2" direction="In" isUnique="false">
+                  <elementDefinition Id="f7b71337-4e08-4e9d-be50-09c11ff41c4b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9284daba-f8da-459e-8558-754da1bc1377" LastKnownName="Vector" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="38dace57-4dda-4990-b49a-d1c97f44675a" direction="Return" isUnique="false">
+                  <elementDefinition Id="c2b3d70c-bf45-4253-a5de-ee9f45c12405" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4311c305-d17a-4710-a049-ef64a5cc1c8b" LastKnownName="double" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="4d32552d-56f4-4888-bbcc-17e6e1322d25" name="&lt;static&gt;AdditionWithVector" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="eb9681a9-db88-47e2-8ad5-e43a7293ece4" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="38b781b6-d073-430c-bdbc-9ecb92bac2de" name="vector1" direction="In" isUnique="false">
+                  <elementDefinition Id="94e359a5-0de9-4d3f-887f-4f24883cfe54" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9284daba-f8da-459e-8558-754da1bc1377" LastKnownName="Vector" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1c8e9a34-4aee-42ae-83b4-91b053487f85" name="vector2" direction="In" isUnique="false">
+                  <elementDefinition Id="850b4c38-905d-4489-9bb0-06b85e7e03da" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9284daba-f8da-459e-8558-754da1bc1377" LastKnownName="Vector" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="66fbe10f-182d-4333-9cd0-a798fa230043" direction="Return" isUnique="false">
+                  <elementDefinition Id="8812c686-b3c6-4a2e-9431-f9098ed9c645" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9284daba-f8da-459e-8558-754da1bc1377" LastKnownName="Vector" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="d7d7774f-2b97-41e2-b470-6f69dad22fcc" name="&lt;static&gt;SubtractionWithVector" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9c118643-90f5-4b15-893a-e95c2016cb1f" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="84811ce9-8b22-43e5-bc9f-11bb69e3dca8" direction="Return" isUnique="false">
+                  <elementDefinition Id="48f560b8-6159-48f9-8378-8ed98fc0056e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9284daba-f8da-459e-8558-754da1bc1377" LastKnownName="Vector" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a3730095-3a33-4de4-a51d-33542bb23932" name="vector1" direction="In" isUnique="false">
+                  <elementDefinition Id="4ac8f3a8-fe21-4eb4-8f66-f47eb2033caa" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9284daba-f8da-459e-8558-754da1bc1377" LastKnownName="Vector" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c2f8585c-c5b2-491c-ac8e-05d94e8c1b50" name="vector2" direction="In" isUnique="false">
+                  <elementDefinition Id="2468fee2-0444-4608-b10a-d11f86838571" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9284daba-f8da-459e-8558-754da1bc1377" LastKnownName="Vector" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="3a6d7b1f-e7d6-4aad-9b22-af246ac8713f" name="&lt;static&gt;MultiplicationWithVector" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1d33472b-0670-45d3-a3ba-67604800612c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="17e60d26-5ec4-4a38-ad65-ad3c8b439954" name="vector1" direction="In" isUnique="false">
+                  <elementDefinition Id="03347ac4-4ce7-471b-b41c-00f295080b71" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9284daba-f8da-459e-8558-754da1bc1377" LastKnownName="Vector" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="87710bd0-9f29-40b6-811f-e9b8665333d0" name="vector2" direction="In" isUnique="false">
+                  <elementDefinition Id="e83b42a2-d674-433f-8437-8ece8c6c5655" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9284daba-f8da-459e-8558-754da1bc1377" LastKnownName="Vector" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9f4aed97-a1bc-4b43-9d02-fc1f6c38544f" direction="Return" isUnique="false">
+                  <elementDefinition Id="98aa1b6c-8227-411f-a878-47fdca83738d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9284daba-f8da-459e-8558-754da1bc1377" LastKnownName="Vector" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="9963023a-273e-4a3f-bdc4-fe0f1662875f" name="ToString" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e68ff8dc-eef7-46f4-aa0a-e81556244160" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="88c8d5d1-d096-4d11-b764-e82266f48f53" direction="Return" isUnique="false">
+                  <elementDefinition Id="476ddf71-5604-4803-b230-7cfa9dcd9fb6" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="aed650b7-8218-45a5-94bc-1d4bc6b27898" LastKnownName="string" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="9284daba-f8da-459e-8558-754da1bc1377" name="Vector" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject3::Vector">
+        <elementDefinition Id="77bff340-75c9-4757-b83e-46108a8b5542" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="04ae860f-208e-48ea-9edc-319d7d2d19fe" name="double" isAbstract="false" isLeaf="false" cachedFullName="double">
+        <elementDefinition Id="4f693de1-148f-4ff9-9677-5174ef1c6b59" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="1bf575b6-5944-4527-80c6-8a6f343a8416" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="be5670b4-03ed-4184-86d8-1de4382c86ba" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f7ef06a2-bbbe-4005-941d-f5c1b7974fc4" name="Vector2D" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="81f3334c-d943-4310-80c4-a833c2ea1f45" />
+        <ownedAttributesInternal>
+          <property Id="d6806ab5-3027-4ed3-8f33-927b218b824b" name="Magnitude" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4d5a74e7-8743-4b6a-b21a-1d990afe6266" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="04ae860f-208e-48ea-9edc-319d7d2d19fe" LastKnownName="double" />
+            </type_NamedElement>
+          </property>
+          <property Id="1f530c76-9e30-4084-9f03-dc60cab4eb88" name="X" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="16d177de-9cb6-4f66-a48a-9920c8a44472" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="4311c305-d17a-4710-a049-ef64a5cc1c8b" LastKnownName="double" />
+            </type_NamedElement>
+          </property>
+          <property Id="d6ef8f05-decf-495a-a91e-85e7a2eb2d43" name="Y" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9e20f413-1a48-4977-8502-66d0e40c3a8a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="4311c305-d17a-4710-a049-ef64a5cc1c8b" LastKnownName="double" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="e63e4e0c-d773-46b7-b253-dba7967ae6d1" name="Vector2D" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ff628c3d-b55b-4508-a5d8-bd0b4665c30f" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="fbe46795-9a39-40ab-b876-c80a56bd68d7" name="x" direction="In" isUnique="false">
+                  <elementDefinition Id="fdd11cfd-f045-4562-b08a-1db9078a8465" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4311c305-d17a-4710-a049-ef64a5cc1c8b" LastKnownName="double" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5c746f34-eca3-4e94-9599-a7bec01005fa" name="y" direction="In" isUnique="false">
+                  <elementDefinition Id="13283ec8-f171-40f7-a1cb-b63cec6459f8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4311c305-d17a-4710-a049-ef64a5cc1c8b" LastKnownName="double" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="809ce9ef-5194-4fff-b592-cd0766e900b3" name="CalculateMagnitude" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="22eb98b8-990e-415f-9723-16aee8a4b425" />
+          </operation>
+          <operation Id="76cf2a07-cc21-44d5-ba81-30c309e89e45" name="&lt;static&gt;DotProduct" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d9f34517-6c15-41e9-bed9-a2e69f00966a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0d43969e-ecfc-4c8f-8538-516a71405924" direction="Return" isUnique="false">
+                  <elementDefinition Id="1ecaac06-8e57-47bc-9649-4de55aff638e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="04ae860f-208e-48ea-9edc-319d7d2d19fe" LastKnownName="double" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="561a37a7-8479-412f-9d4b-7e9b17cc88df" name="vector1" direction="In" isUnique="false">
+                  <elementDefinition Id="f5fef814-bf30-4bb6-93ab-d4ff198166cf" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f424b31f-492a-419a-8fb1-3f86521bde7a" LastKnownName="Vector2D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="12e9660a-3371-4996-9be8-2a6a6cf7406a" name="vector2" direction="In" isUnique="false">
+                  <elementDefinition Id="58808b38-3d70-4d94-9879-0ea4afbcc270" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f424b31f-492a-419a-8fb1-3f86521bde7a" LastKnownName="Vector2D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="e7770270-c748-4585-9798-2e140ce1700b" name="&lt;static&gt;AdditionWithVector2D" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d975813a-a4de-48fc-b760-c5591e564794" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a08d7c7c-f9ea-4e9d-ae6b-ba72a3dbc258" direction="Return" isUnique="false">
+                  <elementDefinition Id="b1a04b45-8fea-4766-ab45-eedb6c7e73ad" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f424b31f-492a-419a-8fb1-3f86521bde7a" LastKnownName="Vector2D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="aa04f061-d9da-4633-8db0-d25dffbadac3" name="vector1" direction="In" isUnique="false">
+                  <elementDefinition Id="d959c8cf-fa63-41e6-8109-e3f3aceee110" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f424b31f-492a-419a-8fb1-3f86521bde7a" LastKnownName="Vector2D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="51420ad1-1888-4c4f-92bc-df1929554ee6" name="vector2" direction="In" isUnique="false">
+                  <elementDefinition Id="975181c7-c762-4e4a-95c7-2dabdddd35f5" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f424b31f-492a-419a-8fb1-3f86521bde7a" LastKnownName="Vector2D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="e3ea3838-be4a-43ef-a870-c4bc03865e17" name="&lt;static&gt;SubtractionWithVector2D" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="13144426-b0f2-487a-b765-3988afcb9488" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ea740acf-e880-4cf2-a7b1-dbc703942ab9" direction="Return" isUnique="false">
+                  <elementDefinition Id="d90e7a2e-d1d4-4002-93b5-eaa8d2e78017" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f424b31f-492a-419a-8fb1-3f86521bde7a" LastKnownName="Vector2D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ac94e138-9496-4eb5-85b7-9c6d462635e1" name="vector1" direction="In" isUnique="false">
+                  <elementDefinition Id="0ea0026f-513e-4bb2-947c-ce21a95c644c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f424b31f-492a-419a-8fb1-3f86521bde7a" LastKnownName="Vector2D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="051913ff-350a-4874-bffc-16c054ae5dff" name="vector2" direction="In" isUnique="false">
+                  <elementDefinition Id="024d56fc-74b4-4d6f-b32b-943fd61e0d81" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f424b31f-492a-419a-8fb1-3f86521bde7a" LastKnownName="Vector2D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="e8c19106-3ad7-4662-9ba2-07512ef98d60" name="ToString" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9b52fd8d-fce2-44a3-bc0a-1d2f3dc7a7af" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="cdffb107-6151-4ce1-9885-936546fb67e0" direction="Return" isUnique="false">
+                  <elementDefinition Id="e56ea608-1ea1-48cd-9fbb-d708f42784d2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1bf575b6-5944-4527-80c6-8a6f343a8416" LastKnownName="string" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="f424b31f-492a-419a-8fb1-3f86521bde7a" name="Vector2D" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject3::Vector2D">
+        <elementDefinition Id="81f3334c-d943-4310-80c4-a833c2ea1f45" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="705d9896-2db6-4294-9aec-1138d29144cf" name="double" isAbstract="false" isLeaf="false" cachedFullName="double">
+        <elementDefinition Id="4f693de1-148f-4ff9-9677-5174ef1c6b59" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="30044031-d615-473c-aec3-b8734e91d1da" name="double" isAbstract="false" isLeaf="false" cachedFullName="double">
+        <elementDefinition Id="4f693de1-148f-4ff9-9677-5174ef1c6b59" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="00d5216b-0ea3-4476-8e4a-ad01f08c65d3" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="be5670b4-03ed-4184-86d8-1de4382c86ba" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a097cb05-8622-4c54-82b6-e218e9b07fe8" name="Vector3D" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4ba5bf66-b5ad-49fe-a109-0899d476c4ff" />
+        <ownedAttributesInternal>
+          <property Id="e8d28561-fb12-466d-906a-9e0e7b86f7d8" name="Magnitude" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="eb0534f6-2f70-4f57-89cd-2852881ccfdf" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="705d9896-2db6-4294-9aec-1138d29144cf" LastKnownName="double" />
+            </type_NamedElement>
+          </property>
+          <property Id="41aca83b-316a-41a7-9dc6-238c1774a7f9" name="X" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cc2b8174-1596-4144-9155-603ff9db9e20" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="30044031-d615-473c-aec3-b8734e91d1da" LastKnownName="double" />
+            </type_NamedElement>
+          </property>
+          <property Id="8b03fd7f-8a5a-4ab3-8a93-fdbe2c34d4d2" name="Y" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="54a28db6-638b-4df8-8645-84fba39fbe1a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="30044031-d615-473c-aec3-b8734e91d1da" LastKnownName="double" />
+            </type_NamedElement>
+          </property>
+          <property Id="8c4d5b7c-972b-4709-835c-0dc6fbcff75c" name="Z" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2b8e34dc-9463-411e-b7cb-e978977e59bd" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="4311c305-d17a-4710-a049-ef64a5cc1c8b" LastKnownName="double" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="d72b87bc-2b76-4d59-acf5-7a17602148f9" name="Vector3D" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6abdf6fc-9208-4d67-bf5e-be80b2adf4eb" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3b15d849-a2c6-4b35-93ab-8dbb219a9307" name="x" direction="In" isUnique="false">
+                  <elementDefinition Id="c5d442a7-45b2-4868-8004-2be24492a599" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4311c305-d17a-4710-a049-ef64a5cc1c8b" LastKnownName="double" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5ec59aa6-3373-4d56-b45f-d00f3462d7bc" name="y" direction="In" isUnique="false">
+                  <elementDefinition Id="33f5d78d-6d83-478a-9e73-64a6b3d66a98" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4311c305-d17a-4710-a049-ef64a5cc1c8b" LastKnownName="double" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c3db9407-782e-4852-8389-f3b786589d7c" name="z" direction="In" isUnique="false">
+                  <elementDefinition Id="88f9802a-dcf7-40d2-8b0c-114ebbbd2893" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4311c305-d17a-4710-a049-ef64a5cc1c8b" LastKnownName="double" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="2e3246cb-ebc4-4f87-b56e-9862b83e0d05" name="CalculateMagnitude" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="07e3666d-3b57-4dc0-93ec-012528376d33" />
+          </operation>
+          <operation Id="c61e0257-8860-4c5e-8e0f-d9fc60ec91d6" name="&lt;static&gt;DotProduct" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ce0424bd-958d-4679-895e-d0764ac4d637" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8574b196-00a0-4c14-9fd2-193e1f5b6922" direction="Return" isUnique="false">
+                  <elementDefinition Id="fb01db83-e760-47db-9119-ae071d7d52c3" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="705d9896-2db6-4294-9aec-1138d29144cf" LastKnownName="double" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5eef1dca-a52c-41c6-9619-29683d4e30e9" name="vector1" direction="In" isUnique="false">
+                  <elementDefinition Id="3ff65924-2d1f-4400-979e-da8bd7dc4050" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cf892427-20b4-4def-9d85-a57f701efece" LastKnownName="Vector3D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a731cb43-b8c1-45cc-8ec2-a172cd22e5c7" name="vector2" direction="In" isUnique="false">
+                  <elementDefinition Id="d94d3975-ef59-4c9e-889f-fa5684eb6a9c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cf892427-20b4-4def-9d85-a57f701efece" LastKnownName="Vector3D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="7acc8ea7-f619-4a76-b007-d8c41402b836" name="&lt;static&gt;AdditionWithVector3D" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ccdb5649-5302-4284-81c4-d1004464c1f9" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e1414586-84c9-4829-9242-670cdd9f27db" direction="Return" isUnique="false">
+                  <elementDefinition Id="81fdcb98-677d-4b01-85a8-b896729f059e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cf892427-20b4-4def-9d85-a57f701efece" LastKnownName="Vector3D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="877091e7-ad7b-405f-ab24-91737dd18b68" name="vector1" direction="In" isUnique="false">
+                  <elementDefinition Id="cf0b7dc9-683f-4e22-83f1-acdc7b8f7a1d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cf892427-20b4-4def-9d85-a57f701efece" LastKnownName="Vector3D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c9a693c8-9b9c-4650-9cea-8c6ae0813220" name="vector2" direction="In" isUnique="false">
+                  <elementDefinition Id="bf2e0713-9227-436a-a46b-d815a42427b5" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cf892427-20b4-4def-9d85-a57f701efece" LastKnownName="Vector3D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="0201c705-acf9-43f3-a751-1dd4dedbc252" name="&lt;static&gt;SubtractionWithVector3D" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1d6352f0-a9c8-4f19-8fc6-a61ea5dd2999" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="abbaa20a-0a3c-4aec-8b45-7b8cfd6d73b5" direction="Return" isUnique="false">
+                  <elementDefinition Id="5a549215-f661-4d85-bc98-939b3813aaaa" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cf892427-20b4-4def-9d85-a57f701efece" LastKnownName="Vector3D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e8544bc1-1e06-441c-a1d0-eaf22457eccc" name="vector1" direction="In" isUnique="false">
+                  <elementDefinition Id="44a20762-f302-4646-87c2-b16dad737eb5" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cf892427-20b4-4def-9d85-a57f701efece" LastKnownName="Vector3D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="636e28e1-36b7-41de-8fd8-266bca246e17" name="vector2" direction="In" isUnique="false">
+                  <elementDefinition Id="d2a97791-e940-42a6-87fb-826cbef18353" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cf892427-20b4-4def-9d85-a57f701efece" LastKnownName="Vector3D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="ca72503b-4178-4ef4-90f9-b6433fb3c440" name="ToString" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="18b0d6fa-64a6-46f4-a41f-10b7d50e7c75" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3ea42a2a-65b6-43ee-8687-968dcaf364f5" direction="Return" isUnique="false">
+                  <elementDefinition Id="a7a133bc-9ce3-4392-9ae7-745abcb24dd1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="00d5216b-0ea3-4476-8e4a-ad01f08c65d3" LastKnownName="string" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="621c0a03-5020-475e-b175-5a15a1a5b395" name="&lt;static&gt;CrossProduct" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="49341324-cc17-4f9b-88cd-eae2365e5d55" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9ca9ea9f-478c-4014-8d75-b5f83495b054" direction="Return" isUnique="false">
+                  <elementDefinition Id="ac47b4b8-42e0-4a79-bb05-e3633ddb9a36" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cf892427-20b4-4def-9d85-a57f701efece" LastKnownName="Vector3D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="577b94f1-d3df-49da-bce1-301ebde3a164" name="vector1" direction="In" isUnique="false">
+                  <elementDefinition Id="91471414-8d67-4017-bc21-f84322b191c9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cf892427-20b4-4def-9d85-a57f701efece" LastKnownName="Vector3D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="bb0b175e-be6d-4185-9cb7-118e20eda460" name="vector2" direction="In" isUnique="false">
+                  <elementDefinition Id="43942776-f436-4d17-8182-1eaee37362ba" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cf892427-20b4-4def-9d85-a57f701efece" LastKnownName="Vector3D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="cf892427-20b4-4def-9d85-a57f701efece" name="Vector3D" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject3::Vector3D">
+        <elementDefinition Id="4ba5bf66-b5ad-49fe-a109-0899d476c4ff" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="e13af988-ed88-40cd-b5fe-a5f13b5ac6bb" name="ModelingProject3">
+    <elementDefinition Id="5911ede7-fd2b-41e9-9bb1-d92f89c72d4a" />
+    <profileInstances>
+      <packageHasProfileInstances Id="c000c954-c8f6-4ca7-849a-dfed0523d235">
+        <profileInstance Id="d1a4c406-8973-4059-b726-75d68b6eec9a" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="096a7688-290d-4257-8515-cba5609b1704">
+        <profileInstance Id="2982b233-4504-4311-9f11-0efa0d314ca0" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

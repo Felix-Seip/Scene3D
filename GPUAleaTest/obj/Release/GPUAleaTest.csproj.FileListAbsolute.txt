@@ -1,0 +1,13 @@
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\GPUAleaTest\bin\Release\GPUAleaTest.exe.config
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\GPUAleaTest\obj\Release\GPUAleaTest.csprojResolveAssemblyReference.cache
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\GPUAleaTest\obj\Release\GPUAleaTest.exe
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\GPUAleaTest\obj\Release\GPUAleaTest.pdb
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\GPUAleaTest\bin\Release\GPUAleaTest.exe
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\GPUAleaTest\bin\Release\GPUAleaTest.pdb
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\GPUAleaTest\bin\Release\Alea.CUDA.dll
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\GPUAleaTest\bin\Release\Alea.CUDA.IL.dll
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\GPUAleaTest\bin\Release\Alea.IL.dll
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\GPUAleaTest\bin\Release\FSharp.Core.dll
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\GPUAleaTest\bin\Release\Alea.CUDA.xml
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\GPUAleaTest\bin\Release\Alea.CUDA.IL.xml
+C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\Scene3D\GPUAleaTest\bin\Release\FSharp.Core.xml
