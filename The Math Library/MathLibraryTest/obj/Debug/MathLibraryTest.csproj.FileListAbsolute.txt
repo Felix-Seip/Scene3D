@@ -1,8 +1,0 @@
-C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\MathLibraryTest\bin\Debug\MathLibraryTest.exe.config
-C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\MathLibraryTest\bin\Debug\MathLibraryTest.exe
-C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\MathLibraryTest\bin\Debug\MathLibraryTest.pdb
-C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\MathLibraryTest\bin\Debug\TheMathLibrary.dll
-C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\MathLibraryTest\bin\Debug\TheMathLibrary.pdb
-C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\MathLibraryTest\obj\Debug\MathLibraryTest.csprojResolveAssemblyReference.cache
-C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\MathLibraryTest\obj\Debug\MathLibraryTest.exe
-C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\MathLibraryTest\obj\Debug\MathLibraryTest.pdb
