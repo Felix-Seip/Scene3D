@@ -25,16 +25,16 @@ namespace TheMathLibrary.Methods
                     for (int j = 0; j < inputMatrix.ColumnCount; j++)
                     {
                         if (j != i)
-                            sigma += inputMatrix.Values[i][j] * solvedVector.Values[j];
+                            sigma += inputMatrix[i, j] * solvedVector[j];
                     }
-                    solvedVector.Values[i] = Math.Round((expectedOutcome.Values[i] - sigma) / inputMatrix.Values[i][i], accuracy);
+                    solvedVector.Values[i] = Math.Round((expectedOutcome[i] - sigma) / inputMatrix[i, i], accuracy);
                 }
                 Console.WriteLine("Step #" + k + ": \n" + solvedVector.ToString());
                 if (CheckConvergence(solvedVector, previousVector))
                     return solvedVector;
 
                 for(int i = 0; i < solvedVector.Values.Length; i++)
-                    previousVector.Values[i] = solvedVector.Values[i];
+                    previousVector.Values[i] = solvedVector[i];
             }
             return solvedVector;
         }
@@ -46,7 +46,7 @@ namespace TheMathLibrary.Methods
             {
                 for (int i = 0; i < currentVector.Values.Length; i++)
                 {
-                    if (currentVector.Values[i] == previousVector.Values[i])
+                    if (currentVector.Values[i] == previousVector[i])
                         numberOfSameValues++;
                 }
             }

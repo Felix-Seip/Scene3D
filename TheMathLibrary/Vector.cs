@@ -13,6 +13,14 @@ namespace TheMathLibrary.LinearAlgebra.Vectors
         public int Size { get; private set; }
         public double Magnitude { get; private set; }
 
+        public double this[int i]
+        {
+            get
+            {
+                return Values[i];
+            }
+        }
+
         public Vector(double[] values)
         {
             Values = values;
@@ -27,7 +35,7 @@ namespace TheMathLibrary.LinearAlgebra.Vectors
             double squaredValues = 0;
 
             for (int i = 0; i < Size; i++)
-                squaredValues += Math.Pow(Values[i], 2);
+                squaredValues += Math.Pow(this[i], 2);
 
             Math.Sqrt(squaredValues);
         }
@@ -41,7 +49,7 @@ namespace TheMathLibrary.LinearAlgebra.Vectors
             {
                 for(int i = 0; i < vector1.Size; i++)
                 {
-                    dotProduct += vector1.Values[i] * vector2.Values[i];
+                    dotProduct += vector1[i] * vector2[i];
                 }
             }
             return dotProduct;
@@ -56,7 +64,7 @@ namespace TheMathLibrary.LinearAlgebra.Vectors
             {
                 for (int i = 0; i < vector1.Size; i++)
                 {
-                    addedValues[i] = vector1.Values[i] + vector2.Values[i];
+                    addedValues[i] = vector1[i] + vector2[i];
                 }
             }
             return new Vector(addedValues);
@@ -71,7 +79,7 @@ namespace TheMathLibrary.LinearAlgebra.Vectors
             {
                 for (int i = 0; i < vector1.Size; i++)
                 {
-                    subtractedValues[i] = vector1.Values[i] - vector2.Values[i];
+                    subtractedValues[i] = vector1[i] - vector2[i];
                 }
             }
             return new Vector(subtractedValues);
@@ -86,12 +94,18 @@ namespace TheMathLibrary.LinearAlgebra.Vectors
             {
                 for (int i = 0; i < vector1.Size; i++)
                 {
-                    multipliedValues[i] = vector1.Values[i] * vector2.Values[i];
+                    multipliedValues[i] = vector1[i] * vector2[i];
                 }
             }
 
             return new Vector(multipliedValues);
         }
+
+        public int Length()
+        {
+            return Values.Length;
+        }
+
         public override string ToString()
         {
             string vectorAsString = "";

@@ -18,6 +18,14 @@ namespace TheMathLibrary.LinearAlgebra.Matrices
         public int ColumnCount { get; private set; }
         public bool IsDiagonallyDominant { get; private set; }
 
+        public double this[int i, int j]
+        {
+            get
+            {
+                return Values[i][j];
+            }
+        }
+
         public Matrix() { }
         public Matrix(double[][] matrix)
         {
@@ -44,7 +52,7 @@ namespace TheMathLibrary.LinearAlgebra.Matrices
             {
                 for(int j = 0; j < matrix.ColumnCount; j++)
                 {
-                    resultingMatrixValues[i][j] = matrix.Values[i][j] * scalar;
+                    resultingMatrixValues[i][j] = matrix[i, j] * scalar;
                 }
             }
             return new Matrix(resultingMatrixValues);
@@ -63,7 +71,7 @@ namespace TheMathLibrary.LinearAlgebra.Matrices
                 {
                     for(int j = 0; j < matrix.ColumnCount; j++)
                     {
-                        resultingVectorValues[i] += matrix.Values[i][j] * vector.Values[j];
+                        resultingVectorValues[i] += matrix[i, j] * vector[j];
                     }
                 }
             }
@@ -79,9 +87,9 @@ namespace TheMathLibrary.LinearAlgebra.Matrices
             {
                 //Perform the multiplication and return a new 3D vector, since that is the result. 
                 return new Vector3D(
-                    matrix.Values[0][0] * vector.X + matrix.Values[0][1] * vector.Y + matrix.Values[0][2] * vector.Z,
-                    matrix.Values[1][0] * vector.X + matrix.Values[1][1] * vector.Y + matrix.Values[1][2] * vector.Z,
-                    matrix.Values[2][0] * vector.X + matrix.Values[2][1] * vector.Y + matrix.Values[2][2] * vector.Z);
+                    matrix[0, 0] * vector.X + matrix[0, 1] * vector.Y + matrix[0, 2] * vector.Z,
+                    matrix[1, 0] * vector.X + matrix[1, 1] * vector.Y + matrix[1, 2] * vector.Z,
+                    matrix[2, 0] * vector.X + matrix[2, 1] * vector.Y + matrix[2, 2] * vector.Z);
             }
             return new Vector3D(0, 0, 0);
         }
@@ -95,10 +103,10 @@ namespace TheMathLibrary.LinearAlgebra.Matrices
             {
                 //Perform the multiplication and return a new 4D vector, since that is the result. 
                 return new Vector4D(
-                    matrix.Values[0][0] * vector.X + matrix.Values[0][1] * vector.Y + matrix.Values[0][2] * vector.Z,
-                    matrix.Values[1][0] * vector.X + matrix.Values[1][1] * vector.Y + matrix.Values[1][2] * vector.Z,
-                    matrix.Values[2][0] * vector.X + matrix.Values[2][1] * vector.Y + matrix.Values[2][2] * vector.Z,
-                    matrix.Values[3][0] * vector.X + matrix.Values[3][1] * vector.Y + matrix.Values[3][2] * vector.Z);
+                    matrix[0, 0] * vector.X + matrix[0, 1] * vector.Y + matrix[0, 2] * vector.Z,
+                    matrix[1, 0] * vector.X + matrix[1, 1] * vector.Y + matrix[1, 2] * vector.Z,
+                    matrix[2, 0] * vector.X + matrix[2, 1] * vector.Y + matrix[2, 2] * vector.Z,
+                    matrix[3, 0] * vector.X + matrix[3, 1] * vector.Y + matrix[3, 2] * vector.Z);
             }
             return new Vector4D(0, 0, 0, 0);
         }
@@ -122,7 +130,7 @@ namespace TheMathLibrary.LinearAlgebra.Matrices
                     {
                         for (int k = 0; k < matrix2.ColumnCount - 1; k++)
                         {
-                            multipliedMatrix[i][j] += matrix1.Values[i][k] * matrix2.Values[k][j];
+                            multipliedMatrix[i][j] += matrix1[i, k] * matrix2[k, j];
                         }
                     }
                 }
@@ -142,7 +150,7 @@ namespace TheMathLibrary.LinearAlgebra.Matrices
             {
                 for(int j = 0; j < matrix.RowCount; j++)
                 {
-                    transposedMatrixValues[i][j] = matrix.Values[j][i];
+                    transposedMatrixValues[i][j] = matrix[j, i];
                 }
             }
             return new Matrix(transposedMatrixValues);

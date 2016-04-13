@@ -17,12 +17,12 @@ namespace TheMathLibrary.Analysis
                 for(int j = 0; j < coefficients.Values.Length; j++)
                 {
                     if(i == 0)
-                        derivation.Values[j] += exponents.Values[j] * coefficients.Values[j];
+                        derivation.Values[j] += exponents[j] * coefficients[j];
                     else
-                        derivation.Values[j] = exponents.Values[j] * derivation.Values[j];
+                        derivation.Values[j] = exponents[j] * derivation[j];
 
                     //Decrease the exponent by one after the multiplication.
-                    if (exponents.Values[j] != 0)
+                    if (exponents[j] != 0)
                         exponents.Values[j]--;
                 }
             }
@@ -32,9 +32,9 @@ namespace TheMathLibrary.Analysis
                 //if (exponents.vectorValues[i] == 0)
                 //    derivation.vectorValues[i] = 1;
                 if(i != coefficients.Values.Length-1)
-                    derivedExpression += derivation.Values[i] + "x^" + exponents.Values[i] + " + ";
+                    derivedExpression += derivation[i] + "x^" + exponents[i] + " + ";
                 else
-                    derivedExpression += derivation.Values[i] + "x^" + exponents.Values[i] ;
+                    derivedExpression += derivation[i] + "x^" + exponents[i] ;
             }
             return derivedExpression;
         }
