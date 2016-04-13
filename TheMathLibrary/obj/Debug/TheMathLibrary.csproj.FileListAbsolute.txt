@@ -3,3 +3,8 @@ C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Gr
 C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\TheMathLibrary\obj\Debug\TheMathLibrary.dll
 C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\TheMathLibrary\obj\Debug\TheMathLibrary.pdb
 C:\Users\Felix Seip\Documents\Berufsschule\LF 3 und LF 4 - Programmierung Hr. Graebe\The Math Library\TheMathLibrary\obj\Debug\TheMathLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Scene3D\TheMathLibrary\bin\Debug\TheMathLibrary.dll
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Scene3D\TheMathLibrary\bin\Debug\TheMathLibrary.pdb
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Scene3D\TheMathLibrary\obj\Debug\TheMathLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Scene3D\TheMathLibrary\obj\Debug\TheMathLibrary.dll
+C:\Users\Felix\Documents\Visual Studio 2015\Projects\Scene3D\TheMathLibrary\obj\Debug\TheMathLibrary.pdb

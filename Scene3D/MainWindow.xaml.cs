@@ -25,7 +25,6 @@ namespace Scene3D
         private Polygon objectPolygon;
         private Vector3D camera = new Vector3D(0, 0, -10);
         private int _scrollVariable = 50;
-        private string fileNameToLoad;
 
         //Used to store the 3D object files that are required since the resources are converted to bytes. 
         private static string tempFilePath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\Berufsschule\Scene3D";
@@ -39,16 +38,7 @@ namespace Scene3D
             if (!Directory.Exists(tempFilePath))
                 Directory.CreateDirectory(tempFilePath);
 
-            List<Triangle> trianglesFromFile = FileReaders.ReadOBJFile(fileNameToLoad);
-            for (int i = 0; i < trianglesFromFile.Count; i++)
-            {
-                ChangedThreeDimensionalTriangles.Add(trianglesFromFile[i]);
-                UnChangedThreeDimensionalTriangles.Add(trianglesFromFile[i]);
-            }
-
-            CalculateSidesShown();
-            Convert3DTo2D();
-            Draw();
+            Render(Properties.Resources.Cube3D, ".obj");
         }
 
         /// <summary>
@@ -92,7 +82,6 @@ namespace Scene3D
         /// <summary>
         /// Draw the 2D coordinates on the screen.
         /// </summary>
-        /// TODO: Change draw method to draw projected points only.
         private void Draw()
         {
             if (myCanvas.Children.Count != 0)
@@ -118,6 +107,24 @@ namespace Scene3D
 
             //Add the completed polygon to the canvas.
             myCanvas.Children.Add(objectPolygon);
+        }
+
+        private void Render(byte[] fileObject, string fileExtension)  
+        {
+            myCanvas.Children.Clear();
+            UnChangedThreeDimensionalTriangles.Clear();
+
+            //Create temporary file from the resource file which contains bytes.
+            File.WriteAllBytes(tempFilePath + @"\tempOBJFile" + fileExtension, fileObject);
+
+            //Read the temporary file since it contains the points of the Cube.
+            UnChangedThreeDimensionalTriangles = FileReaders.ReadOBJFile(tempFilePath + @"\tempOBJFile" + fileExtension);
+            CalculateSidesShown();
+            Convert3DTo2D();
+            Draw();
+
+            //Delete the temporary file since it is no longer needed.
+            File.Delete(tempFilePath + @"\tempOBJFile" + fileExtension);
         }
 
         private void OnZoom(object sender, System.Windows.Input.MouseWheelEventArgs e)
@@ -225,92 +232,27 @@ namespace Scene3D
 
         private void CubeObjectMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            myCanvas.Children.Clear();
-            UnChangedThreeDimensionalTriangles.Clear();
-
-            //Create temporary file from the resource file which contains bytes.
-            File.WriteAllBytes(tempFilePath + @"\tempOBJFile.obj", Properties.Resources.Cube3D);
-
-            //Read the temporary file since it contains the points of the Cube.
-            UnChangedThreeDimensionalTriangles = FileReaders.ReadOBJFile(tempFilePath + @"\tempOBJFile.obj");
-            CalculateSidesShown();
-            Convert3DTo2D();
-            Draw();
-
-            //Delete the temporary file since it is no longer needed.
-            File.Delete(tempFilePath + @"\tempOBJFile.obj");
+            Render(Properties.Resources.Cube3D, ".obj");
         }
 
         private void SphereObjectMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            myCanvas.Children.Clear();
-            UnChangedThreeDimensionalTriangles.Clear();
-
-            //Create temporary file from the resource file which contains bytes.
-            File.WriteAllBytes(tempFilePath + @"\tempOBJFile.obj", Properties.Resources.Sphere3D);
-
-            //Read the temporary file since it contains the points of the Sphere.
-            UnChangedThreeDimensionalTriangles = FileReaders.ReadOBJFile(tempFilePath + @"\tempOBJFile.obj");
-            CalculateSidesShown();
-            Convert3DTo2D();
-            Draw();
-
-            //Delete the temporary file since it is no longer needed.
-            File.Delete(tempFilePath + @"\tempOBJFile.obj");
+            Render(Properties.Resources.Sphere3D, ".obj");
         }
 
         private void CylinderObjectMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            myCanvas.Children.Clear();
-            UnChangedThreeDimensionalTriangles.Clear();
-
-            //Create temporary file from the resource file which contains bytes.
-            File.WriteAllBytes(tempFilePath + @"\tempOBJFile.obj", Properties.Resources.Cylinder3D);
-
-            //Read the temporary file since it contains the points of the Cylinder.
-            UnChangedThreeDimensionalTriangles = FileReaders.ReadOBJFile(tempFilePath + @"\tempOBJFile.obj");
-            CalculateSidesShown();
-            Convert3DTo2D();
-            Draw();
-
-            //Delete the temporary file since it is no longer needed.
-            File.Delete(tempFilePath + @"\tempOBJFile.obj");
+            Render(Properties.Resources.Cylinder3D, ".obj");
         }
 
         private void ConeObjectMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            myCanvas.Children.Clear();
-            UnChangedThreeDimensionalTriangles.Clear();
-
-            //Create temporary file from the resource file which contains bytes.
-            File.WriteAllBytes(tempFilePath + @"\tempOBJFile.obj", Properties.Resources.Cone3D);
-
-            //Read the temporary file since it contains the points of the Cylinder.
-            UnChangedThreeDimensionalTriangles = FileReaders.ReadOBJFile(tempFilePath + @"\tempOBJFile.obj");
-            CalculateSidesShown();
-            Convert3DTo2D();
-            Draw();
-
-            //Delete the temporary file since it is no longer needed.
-            File.Delete(tempFilePath + @"\tempOBJFile.obj");
+            Render(Properties.Resources.Cone3D, ".obj");
         }
 
         private void GearObjectMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            myCanvas.Children.Clear();
-            UnChangedThreeDimensionalTriangles.Clear();
-
-            //Create temporary file from the resource file which contains bytes.
-            File.WriteAllBytes(tempFilePath + @"\tempOBJFile.inc", Properties.Resources.TestRad);
-
-            //Read the temporary file since it contains the points of the Cylinder.
-            UnChangedThreeDimensionalTriangles = FileReaders.ReadINCFile(tempFilePath + @"\tempOBJFile.inc");
-            CalculateSidesShown();
-            Convert3DTo2D();
-            Draw();
-
-            //Delete the temporary file since it is no longer needed.
-            File.Delete(tempFilePath + @"\tempOBJFile.inc");
+            Render(Properties.Resources.TestRad, ".inc");
         }
 
         private void ColorPickerMenuItem_Click(object sender, RoutedEventArgs e)

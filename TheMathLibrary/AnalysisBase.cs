@@ -5,7 +5,7 @@ namespace TheMathLibrary.Analysis
     public class AnalysisBase
     {
         /// <summary>
-        /// Calculates the derivation of a function the specified amount.
+        /// Calculates the derivation of a simple polynomial function.
         /// </summary>
         public static string FunctionDerivation(Vector coefficients, Vector exponents, int derivationLevel)
         {
